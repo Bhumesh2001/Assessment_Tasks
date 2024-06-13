@@ -1,0 +1,51 @@
+1. Mandatory : Elaborate what your internship or academic projects were?
+    a. What did the system do?
+    b. What other systems have you seen in the wild like that?
+    c. How do you approach the development problem?
+    d. What were interesting aspects where you copied code from Stack Overflow?
+    e. What did you learn from some very specific copy paste? Mention explicitly some
+    of them.
+ 
+ans :- internship/Academic Project : Login/Signup API and Blog App using node js and mysql;
+
+    a. what did the system do ? : During my internship, I worked on a project that involved building
+        a Login/Signup Api's and blog App system. This system used create our profile and  post our profile,
+        share our comment, thoughts on particular blog on platform. In system create your account and Login
+        to your app.
+
+    b. What other systems have you seen in the wild like that? : Similar systems I've seen in the
+        wild include fromworks, moduls and databases like knex, jwt, express which are used for storing and 
+        manupulation the data. improve performance of the application and development.
+
+    c. How do you approach the development problem? : When approching the development problem,
+        I followed a strutured approach:
+
+        1. Requirements and gathering : I identified of requirements of the project, including api's
+            how many api's will be generated, how strutured will be designed, which module will be used.
+
+        2. Research and planning : I research about the framwork, modules and databases. planned 
+            the architecture of the system.
+
+        3. Implementation : I implemented the system using node js and modules, databases.
+
+        4. Testing and degugging : I tested the system and debugged the issue in the system.
+
+        5. Deployment : I deployed the system on free cloud platform.
+
+    d. What were interesting aspects where you copied code from Stack Overflow? :  One interesting aspect 
+        was implementing the 'expires' option to keep the session alive for 12 hours. I found a solution
+        on Stack Overflow that involving the calculating the number of milliseconds in 12 hours and 
+        adding it to the current timestamp.
+
+    e. What did you learn from some very specific copy paste? Mention explicitly some of them. : from this 
+        project, I learned importance of:
+
+        1. Session management : I learned how to manage sessions using the expires option to keep
+            the session alive for a specified period.
+
+        2. Error handling : I learned how to handled errors and exceptions when running the code and
+            testing the application.
+
+        3. Data storage : I learned how to store the data and how can i design schema and model of the 
+            database.
+

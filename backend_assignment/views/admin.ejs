@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin form</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <form action="http://localhost:5000/register/admin" method="post" class="cstr-from">
+        <h1>Admin Registration</h1>
+        
+        <label for="firstName">First Name</label>
+        <div class="main-div">
+            <input class="input-tag" name="firstName" required placeholder="" autocomplete="off" autofocus type="text">
+        </div>
+
+        <label for="lastName">Last Name</label>
+        <div class="main-div">
+            <input class="input-tag" name="lastName" required placeholder="" autocomplete="off" type="text">
+        </div>
+
+        <label class="email-lable" for="email">Email</label>
+        <div class="main-div">
+            <input class="input-tag" name="email" required placeholder="" autocomplete="off" type="email">
+        </div>
+
+        <label for="password">Password</label>
+        <div class="main-div">
+            <input class="input-tag" name="password" required placeholder="" autocomplete="off" type="password">
+        </div>
+
+        <div class="main-div">
+            <button type="submit" class="sub-btn">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

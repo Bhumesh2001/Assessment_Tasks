@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login from</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body>
+    <form action="http://localhost:5000/admin/login" method="post">
+        <h1>Login</h1>
+        <label for="email">Email</label>
+        <div class="form-div">
+            <input required autocomplete="off" autofocus type="email" name="email" id="">
+        </div>
+        <label for="password">Password</label>
+        <div class="form-div">
+            <input required autocomplete="off" type="password" name="password" id="">
+        </div>
+        <div class="form-div">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
